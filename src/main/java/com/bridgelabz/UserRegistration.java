@@ -24,6 +24,8 @@ public class UserRegistration {
         boolean b4 = Pattern.compile("^(91)[-.+]{1}[1-9]{1}[0-9]{9}$").matcher(str4).matches();
         return b4;
     }
-
-
+    static boolean Password(String str5){
+        boolean b5 = Pattern.compile("^[a-zA-Z0-9]{8,}$").matcher(str5).matches();
+        return b5;
+    }
 }
