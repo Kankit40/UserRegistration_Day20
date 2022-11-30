@@ -25,4 +25,8 @@ public class TestCase extends UserRegistration{
     public void PhoneTest(){
         Assert.assertEquals(true, Phone("91+9898989898") );
     }
+    @Test
+    public void PasswordTest(){
+        Assert.assertEquals(true, Password("Password9898") );
+    }
 }
