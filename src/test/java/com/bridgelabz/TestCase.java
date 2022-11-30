@@ -23,7 +23,7 @@ public class TestCase extends UserRegistration{
     }
     @Test
     public void PhoneTest(){
-        Assert.assertEquals(true, Phone("91+9898989898") );
+        Assert.assertEquals(true, Phone("91 9898989898") );
     }
     @Test
     public void PasswordTest(){
