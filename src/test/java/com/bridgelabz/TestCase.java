@@ -27,6 +27,6 @@ public class TestCase extends UserRegistration{
     }
     @Test
     public void PasswordTest(){
-        Assert.assertEquals(true, Password("34Password9898") );
+        Assert.assertEquals(true, Password("01@abcdefgh") );
     }
 }
