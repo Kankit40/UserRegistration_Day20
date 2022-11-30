@@ -19,4 +19,11 @@ public class UserRegistration {
         boolean b3 = Pattern.compile("^[A-Za-z0-9]+[@][a-zA-Z]+[.][a-zA-Z]+[.]?[a-zA-Z]{2}$").matcher(str3).matches();
         return b3;
     }
+
+    static boolean Phone(String str4){
+        boolean b4 = Pattern.compile("^(91)[-.+]{1}[1-9]{1}[0-9]{9}$").matcher(str4).matches();
+        return b4;
+    }
+
+
 }
