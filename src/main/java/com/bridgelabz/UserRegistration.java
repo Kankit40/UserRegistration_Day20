@@ -25,7 +25,7 @@ public class UserRegistration {
         return b4;
     }
     static boolean Password(String str5){
-        boolean b5 = Pattern.compile("^[0-9]{1,}[A-z]{1,}[a-zA-Z0-9]{8,}$").matcher(str5).matches();
+        boolean b5 = Pattern.compile("^[0-9]{1,}[!@#$%^&]{1,}[A-z]{1,}[a-zA-Z0-9]{5,}$").matcher(str5).matches();
         return b5;
     }
 }
