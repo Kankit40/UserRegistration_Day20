@@ -12,4 +12,9 @@ public class TestCase extends UserRegistration{
     public void NameTest(){
         Assert.assertEquals(true, Name("Ankit") );
     }
+
+    @Test
+    public void LastNameTest(){
+        Assert.assertEquals(true, Last("Kumar") );
+    }
 }
