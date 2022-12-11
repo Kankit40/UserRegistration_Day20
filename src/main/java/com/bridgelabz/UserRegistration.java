@@ -16,7 +16,7 @@ public class UserRegistration {
     }
 
     static boolean Email(String str3){
-        boolean b3 = Pattern.compile("^[A-Za-z0-9]+[@][a-zA-Z]+[.][a-zA-Z]+[.]?[a-zA-Z]{2}$").matcher(str3).matches();
+        boolean b3 = Pattern.compile("^[a-zA-z0-9.+-]+[@]+[a-zA-z0-9]+[.]+[a-zA-z0-9.]{2,}$").matcher(str3).matches();
         return b3;
     }
 
